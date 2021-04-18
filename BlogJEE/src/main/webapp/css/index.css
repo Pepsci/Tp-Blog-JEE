@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+#welcome{
+	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.skill{
+	display: flex;
+	padding: 4em;
+	border-radius: 20px;
+	position: relative;
+}
+.skill .name{
+	display: flex;
+	flex-direction: row;
+	font-size: 2em;
+	font-weight: 500;
+	color: #333333;
+	margin: auto;
+}
+
+.skill .name span{
+	user-select: none;
+    margin: 15px 0;
+    box-shadow: 0px 9px #8f8a8a, 12px -5px 3px 0px #34353c;
+    padding: 10px 20px;
+    text-align: center;
+    border: 5px solid #a9abb0;
+    border-radius: 50px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-right: 62px;
+}
+.skill .name span:hover{
+	transform: translateY(3px);
+	color: #ED8814;
+	box-shadow: 0px 6px #ffffff,	9px -3px 1px 0px #34353c;
+}
+.skill .name span:active{
+	transform: translateY(7px);
+	box-shadow: 0px 2px #ffffff;
+}
